@@ -12,11 +12,11 @@ class Overloading {
 
 class OverloadingExtends extends Overloading{
 
-//    public function __construct()
-//    {
-//        echo "this is child class construct class call";
-//    }
-//
+    public function __construct()
+    {
+        echo "this is child class construct class call"."<br>";
+    }
+
       public function test()
       {
           echo "hello this is overloading practise";
